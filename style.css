@@ -6,7 +6,6 @@ body {
 
 h1 {
     font-size: 70px;
-    width: 10px;
 }
 
 #blue {
@@ -16,6 +15,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 200px;
 }
 
 .half {
