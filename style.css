@@ -8,12 +8,12 @@ h1 {
     font-size: 70px;
 }
 
-#blue {
+.blue {
     color: aqua;
 
 }
 
-section {
+.flex {
     display: flex;
     margin-bottom: 200px;
 }
@@ -36,7 +36,33 @@ section {
     border-radius: 10px;
 }
 
-#banner {
+.banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.exp {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#text1 {
+    text-align: justify;
+}
+
+.dev2 {
+    width: 50%;
+    box-shadow: 10px 5px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+
+#color1 {
+    border-left: 7px solid tomato;
+}
+
+#color2 {
+    border-left: 7px solid blue;
 }
